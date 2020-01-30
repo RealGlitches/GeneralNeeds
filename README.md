@@ -1,4 +1,4 @@
-# GeneralNeeds (Official)
+# GeneralNeeds (Official Release)
 
 I've decided to release this Little project i was working on, Fully Functionable discord bot coded in JS by myself feel free to use the source code
 learn from it anything you would like. :-)

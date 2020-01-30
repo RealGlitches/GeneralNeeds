@@ -1,0 +1,22 @@
+{
+  "name": "development",
+  "version": "1.0.0",
+  "description": "DiscordBot (FREE)",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealGlitches/GeneralNeeds-Development.git"
+  },
+  "author": "RealGlitches#4292",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RealGlitches/GeneralNeeds-Development/issues"
+  },
+  "homepage": "https://github.com/RealGlitches/GeneralNeeds-Development#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

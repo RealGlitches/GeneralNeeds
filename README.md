@@ -23,6 +23,7 @@ A step by step installation of setting up GeneralNeeds
 then type node . Your bot should successfully come Online if that's the case Congrats your Bot is setup.
 
 Any issues please don't be afraid to contact me via Discord.
+feel free to join our Discord Server @ https://discord.gg/KzrAhda
 
 ## Creators/Developers
 

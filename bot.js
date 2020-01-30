@@ -3,7 +3,7 @@ const Discord = require('discord.js')
 const Bot = new Discord.Client();
 
 //Place Your Bot Token Here.
-const Token = 'NjcyNDYwNzI5NzA1ODI0Mjc2.XjL0Cw.PQ_lXgkq8OHvTfZagKx8uqShPB8';
+const Token = 'NjcyNDYwNzI5NzA1ODI0Mjc2.XjNQ2A.uxmEaFfc0t5ldeakOEaFhlbBIts';
 
 //bot's Online Messgae.
 Bot.on('ready', () => {})
@@ -30,7 +30,26 @@ Bot.on('message', async message => {
         .setTimestamp()
         .addField("API Latency Is: ", `${Math.round(Bot.ping)} ms`)
         .addField("Latency Is: ", `${Math.floor(msg.createdAt - message.createdAt)}`)
+        .setFooter("Prefix: - || GeneralNeeds OpenSource", "https://imgur.com/OyUbSLD.png")
+
+
         message.channel.send(uptime);
+    }
+
+    if (cmd === 'serverinfo') {
+        const serverinfo = new Discord.RichEmbed()
+        .setColor('#6a0dad')
+        .setTitle('GeneralNeeds - ServerInfo')
+        .setDescription('GeneralNeeds (Open Source Code)')
+        .setTimestamp()
+        .setAuthor(`GeneralNeeds`, Bot.user.avatarURL)
+        .addField(`Users`, `${Bot.users.size}`, true)
+        .addField(`Servers`, `${Bot.guilds.size}`, true)
+        .addField(`Version`, `1.0.0`, true)
+        .setFooter("Prefix: - || GeneralNeeds OpenSource", "https://imgur.com/OyUbSLD.png")
+
+
+        message.channel.send(serverinfo);
     }
 })
 

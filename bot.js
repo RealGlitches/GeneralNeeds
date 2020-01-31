@@ -5,7 +5,7 @@ Bot.commands = new Discord.Collection();
 Bot.aliases = new Discord.Collection();
 
 //Place Your Bot Token Here.
-const Token = 'NjcyNDYwNzI5NzA1ODI0Mjc2.XjNQ2A.uxmEaFfc0t5ldeakOEaFhlbBIts';
+const Token = '';
 
 // Collections
 Bot.commands = new Discord.Collection();
